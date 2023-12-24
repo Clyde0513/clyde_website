@@ -10,8 +10,7 @@
         <p class = 'about-me'>{{ projectData.ProjectsArray[index].About }}</p>
 
         <div class="links">
-            <a :href = "projectData.ProjectsArray[index].Link1 " target = "_blank"><img src = "../assets/github.png" alt = "Github Logo"> </a> <!-- Github Logo -->
-            <a :href = "projectData.ProjectsArray[index].Link " target = "_blank"><img src = "../assets/github.png" alt = "Github Logo"> </a>
+            <a :href = "projectData.ProjectsArray[index].Link" target = "_blank"><img src = "../assets/github.png" alt = "Github Logo"> </a> <!-- Github Logo -->
         </div>
 
     </div>
