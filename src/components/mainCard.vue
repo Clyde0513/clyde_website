@@ -17,13 +17,13 @@
             </div>
 
             <div class="link">
-                <a href = "https://www.linkedin.com/in/clydevillacrusis/">
+                <a href = "https://www.instagram.com/sagec1313/">
                 <img src ="../assets/ig.png" alt = "" > 
                 <h2>Instagram</h2>
             </a>
-
+           
             </div><div class="link">
-            <a href = "https://www.instagram.com/sagec1313/">
+            <a href = " https://www.linkedin.com/in/clydevillacrusis/">
                 <img src ="../assets/linkedln.png" alt = "" >     
                 <h2>Linkedln</h2>
             </a>
