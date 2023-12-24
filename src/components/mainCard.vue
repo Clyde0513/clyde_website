@@ -62,9 +62,10 @@
         </div>
     </div>
     <div class="button-container">
-        <div class="projects-button">
+        <!--Will use later when I can route things-->
+        <!-- <div class="projects-button">
             <a href = "">My Projects</a>
-        </div>
+        </div> -->
         <!-- <div class="projects-button">
         <a href = ""> My Resume </a>
         </div> -->
