@@ -11,8 +11,7 @@
 
         <div class="links">
             <a :href = "projectData.ProjectsArray[index].Link1 " target = "_blank"><img src = "../assets/github.png" alt = "Github Logo"> </a> <!-- Github Logo -->
-            <a :href = "projectData.ProjectsArray[index].Link2 " target = "_blank"><img src = "../assets/googleColab.png" alt = "Google Colab Logo"> </a> <!-- Google Colab Logo -->
-            <a :href = "projectData.ProjectsArray[index].Link3 " target = "_blank"><img src = "../assets/googleSlides.png" alt = "Google slides Logo"> </a> <!-- Google slides Logo -->
+            <a :href = "projectData.ProjectsArray[index].Link " target = "_blank"><img src = "../assets/github.png" alt = "Github Logo"> </a>
         </div>
 
     </div>
