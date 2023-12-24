@@ -31,13 +31,23 @@
         <br>
         -------------------------------------------------------------------------------------------------------------------------------------------
         Hardest topic in Computer Science for me to comprehend is recursion. It still mind-boggling that it works, from implementing BFS (breadth-first-search) or implementing 
-        DFS (Depth-first-search).
+        DFS (Depth-first-search). So far, my favorite language to use is Python 😊. It's easy, clean, and readable. I used Python for my last physics project that I had to do with
+        a group. It was to confirm the existence of conservation of energy under a controlled-pendulum using 2 Arduinos. This project was
+        fun to create although me and my labmates gone through setbacks and challenges. More detailed info will be on Home Page and on my GitHub.
+        <br>
+        -------------------------------------------------------------------------------------------------------------------------------------------
+        <br>
+        -------------------------------------------------------------------------------------------------------------------------------------------
+        <br>
+        -------------------------------------------------------------------------------------------------------------------------------------------
+        Social Medias⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
         <br>
         <br>
+        Instagram: <a href="https://www.instagram.com/sagec1313/" target="_blank" rel="noopener noreferrer">instagram.com/sagec1313/</a>
         <br>
+        Github: <a href="https://github.com/Clyde0513" target="_blank" rel="noopener noreferrer">Github.com/Clyde0513</a>
         <br>
-        <br>
-        <br>
+        Linkedln: <a href="https://www.linkedin.com/in/clydevillacrusis/" target="_blank" rel="noopener noreferrer">Linkedin.com/in/clydevillacrusis/</a>
         <br>
         <br>
         <br>

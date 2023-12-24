@@ -1,0 +1,71 @@
+<template>
+<div class="main-container">
+    <div class = "project-card" v-for ="(items,index) in projectData.ProjectsArray" v-bind:key="items">
+
+        <h2>{{ projectData.ProjectsArray[index].Title }}</h2>
+
+        <img :src = "projectData.ProjectsArray[index].Image" alt = ""> 
+        <img :src = "projectData.ProjectsArray[index].Image1" alt = "">     
+
+        <p class = 'about-me'>{{ projectData.ProjectsArray[index].About }}</p>
+
+        <div class="links">
+            <a :href = "projectData.ProjectsArray[index].Link1 " target = "_blank"><img src = "../assets/github.png" alt = "Github Logo"> </a> <!-- Github Logo -->
+            <a :href = "projectData.ProjectsArray[index].Link2 " target = "_blank"><img src = "../assets/googleColab.png" alt = "Google Colab Logo"> </a> <!-- Google Colab Logo -->
+            <a :href = "projectData.ProjectsArray[index].Link3 " target = "_blank"><img src = "../assets/googleSlides.png" alt = "Google slides Logo"> </a> <!-- Google slides Logo -->
+        </div>
+
+    </div>
+</div>
+
+</template>
+
+<script>
+import jsonData from "/projects.json"
+export default{
+    data(){
+        return{
+            projectData: jsonData
+        }
+    }
+}
+
+</script>
+
+<style scoped>
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project-card{
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: 0 0 40%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+
+.project-card img{
+    height: 15rem;
+}
+
+
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.links img{
+    height: 1.2rem;
+    margin: 5px;
+}
+
+.about-me{
+    width: 97%;
+}
+</style>

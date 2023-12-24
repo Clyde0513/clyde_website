@@ -2,7 +2,7 @@
 <template>
   <div class="home-page">
     <h1>Welcome to my Home Page!</h1>
-    <h4> Here are multiple showcases of my projects: <br>
+    <h4> In this page, I will illustrate some of my projects and discuss in each one. <br>
         <br>
         <br>
         <br>
@@ -43,6 +43,7 @@ export default {
 /* Add styles specific to the Home component if needed */
 .home-page{
   background-color: beige;
+  
 }
 h1 {
   color: #0f5747;
