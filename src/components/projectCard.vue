@@ -20,7 +20,7 @@
 
 <script>
 import jsonData from "/projects.json"
-export default{
+    export default{
     data(){
         return{
             projectData: jsonData

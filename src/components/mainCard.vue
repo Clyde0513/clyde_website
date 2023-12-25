@@ -1,4 +1,5 @@
 <template>
+    
 <div class="wrapper">
     <div class="main-container">
 
@@ -62,13 +63,11 @@
         </div>
     </div>
     <div class="button-container">
-        <!--Will use later when I can route things-->
-        <!-- <div class="projects-button">
-            <a href = "">My Projects</a>
-        </div> -->
-        <!-- <div class="projects-button">
-        <a href = ""> My Resume </a>
-        </div> -->
+
+        <div class="research-button">
+            <router-link to = "Research" class = 'research-text'> Elegant Mind Club Research </router-link> 
+        </div>
+        <router-view/>
     </div>
 </div>
 </div>
@@ -79,10 +78,9 @@
 <script>
 export default{
 
-
-
 }
 </script>
+
 <style scoped>
 
     .wrapper{
@@ -139,15 +137,19 @@ export default{
         height: 2.5rem;
     }
 
-    .projects-button{
+    .research-button{
        background-color: rgb(33, 7, 128);
        margin: 5px;
        border-radius: 15px;
        padding: 8px;
     }
-    .projects-button a{
+    .research-button router-link{
         text-decoration: none;
         color: rgb(255, 255, 255);
+    }
+
+    .research-text{
+        color: white;
     }
     .button-container{
         display: flex;

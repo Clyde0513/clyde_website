@@ -1,31 +1,26 @@
 <!-- App.vue -->
 <template>
-   <mainCard/>
-   <projectCard/>
-   <!-- <div id="app">
-    <header>
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
-      Add more navigation links as needed -->
-    <!-- </header>
 
-    <router-view></router-view>
-  </div> -->
+  <mainCard/>
+  <projectCard/>
+   
 </template>
 
 <script>
 import mainCard from './components/mainCard.vue'
 import projectCard from './components/projectCard.vue';
+// import researchCard from './components/researchCard.vue';
 
 export default {
   name: 'App',
   components: {
     mainCard,
-    projectCard
+    projectCard,
+    // researchCard
   }
 }
-</script>
 
+</script>
 <style >
 /* Add global styles for the entire app if needed */
 body{
@@ -41,4 +36,3 @@ body{
   background-color: lightskyblue;
 }
 </style>
-
