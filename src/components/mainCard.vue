@@ -64,9 +64,9 @@
     </div>
     <div class="button-container">
 
-        <div class="research-button">
+        <!-- <div class="research-button">
             <router-link to = "Research" class = 'research-text'> Elegant Mind Club Research </router-link> 
-        </div>
+        </div> -->
         <router-view/>
     </div>
 </div>
